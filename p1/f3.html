@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Manager</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="f2.css">
+</head>
+<body>
+    <div class="container">
+        <h2>New Employees</h2>
+        <div>
+            <input type="text" id="name" placeholder="Enter Name">
+            <input type="text" id="profession" placeholder="Enter Profession">
+            <input type="number" id="age" placeholder="Enter Age">
+            <button id="addUser">Add User</button>
+        </div>
+        <p class="error" id="errorMessage"></p>
+        <div class="employeeList">
+            <h3>Added Employees</h3>
+            <ul id="employeeContainer">
+                <p>You have 0 employees.</p>
+            </ul>
+        </div>
+    </div>
+    <!-- Link to external JavaScript -->
+    <script src="f2.js"></script>
+</body>
+</html>
